@@ -1,4 +1,4 @@
-# Synth-lights
+# Synth-light
 
 ## Description
 
@@ -45,7 +45,7 @@ Given the description of a model (light variant, number of colors, scheduler), t
 ### MacOS
 1. Install Xcode command-line tools
 1. Install [Homebrew](https://brew.sh)
-2. Download or clone synth-lights
+2. Download or clone synth-light
 3. `brew install rustup-init`
 4. `rustup-init`
 5. `brew install spin`
