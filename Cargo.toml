@@ -1,0 +1,35 @@
+[package]
+name = "synth-lights"
+authors = ["Xavier Defago <defago@c.titech.ac.jp>"]
+version = "0.2.0"
+edition = "2021"
+license = "MIT"
+description = "Program to synthesize rendez-vous algorithms of two robots with lights, using model checking and exhaustive search."
+default-run = "synth-lights"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+doctest = false
+
+[dependencies]
+clap  = { version = "4", features = ["derive"] }
+strum = { version = "0.27", features = ["derive"] }
+itertools = "0.14"
+duct = "1.0"
+uuid = { version = "1.8", features = ["v4"] }
+lazy-regex = "3.1.0"
+rayon = "1.10"
+indicatif = { version = "0.17", features = ["rayon"] }
+anyhow = "1.0"
+log = "0.4"
+simplelog = "0.12"
+convert_case = "0.8"
+num-format = "0.4"
+num_cpus = "1"
+
+dot-writer = "0.1.3"
+
+[features]
+
+
