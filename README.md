@@ -8,7 +8,7 @@ Given the description of a model (light variant, number of colors, scheduler), t
 
 ## Acknowledgments
 
-This work was supported in part by JSPS KAKENHI Grant Number 20K11685, and 21K11748.
+This work was supported in part by JSPS KAKENHI Grant Numbers 20K11685 and 21K11748.
 
 ## Verification Model Parameters
 
