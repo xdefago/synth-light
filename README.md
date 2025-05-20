@@ -6,6 +6,9 @@ This program aims to synthesize rendez-vous algorithms of two robots with lights
 
 Given the description of a model (light variant, number of colors, scheduler), the program generates all possible algorithms, filters those that are not viable, reduces the number to eliminate isomorphism, and checks them one-by-one using the SPIN model checker.
 
+The basis for the model in Promela code is found in the repository [`spin-light`](https://github.com/xdefago/spin-light).
+The Promela code is however replicated in this repository, possibly with some modifications.
+
 ## Acknowledgments
 
 This work was supported in part by JSPS KAKENHI Grant Numbers 20K11685 and 21K11748.
