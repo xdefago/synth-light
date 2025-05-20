@@ -6,6 +6,10 @@ This program aims to synthesize rendez-vous algorithms of two robots with lights
 
 Given the description of a model (light variant, number of colors, scheduler), the program generates all possible algorithms, filters those that are not viable, reduces the number to eliminate isomorphism, and checks them one-by-one using the SPIN model checker.
 
+## Acknowledgments
+
+This work was supported in part by JSPS KAKENHI Grant Number 20K11685, and 21K11748.
+
 ## Verification Model Parameters
 
 ### Configurable
